@@ -6,10 +6,6 @@ tags: objects, callbacks, reject, select
 # Strain
 ## Getting Started
 
-Run `npm install`
-
-## Tests
-
 Review the `strain.js` file inside the `lib` directory, and then the `strain.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `strain.js`.
 
 To run the specs follow these commands:
