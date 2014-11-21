@@ -49,6 +49,8 @@ ironboard -b
 
 ## Background
 
+`#keep` and `#discard` functions will be like ruby's [`#detect`](http://ruby-doc.org/core-2.1.5/Enumerable.html#method-i-detect) and [`#reject`](http://ruby-doc.org/core-2.1.5/Enumerable.html#method-i-reject)
+
 For example, given the collection of numbers:
 
 - 1, 2, 3, 4, 5
