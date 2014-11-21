@@ -1,12 +1,38 @@
 ---
 languages: javascript
 tags: objects, callbacks, reject, select
+resources: 1
 ---
 
 # Strain
 ## Getting Started
 
 Review the `strain.js` file inside the `lib` directory, and then the `strain.spec.js` file inside the `spec` directory. Review each of the tests, and then start implementing your solutions to make each test pass in `strain.js`.
+
+`strain` will be a regular JavaScript object that you will attach functions to as properties.  You can then call these functions from the object as if they were methods on an instance.
+
+ex.
+```javascripts
+  var car = {
+    honk: function(){
+      console.log('HONK!!!!!!');
+    },
+    setCarAlarmOff: function(){
+      var x = 0;
+      while (x < 5) {
+        console.log('EEE ERR EEE ERR');
+        console.log('WOM WOM WOM');
+        x++;
+      }
+    }
+  };
+
+  car.honk();
+  // -> HONK!!!!!!
+```
+
+These methods will need to accept a callback as an argument.
+
 
 To run the specs follow these commands:
 ```shell
@@ -46,3 +72,6 @@ Note that the union of `keep` and `discard` is all the elements.
 Keep your hands off that filter/reject/whatchamacallit functionality
 provided by your standard library!
 Solve this one yourself using other basic tools instead.
+
+### Resources
+*[Making your Own callbacks](http://stackoverflow.com/questions/2190850/create-a-custom-callback-in-javascript?answertab=votes#tab-top)
