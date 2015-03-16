@@ -1,0 +1,8 @@
+languages:
+  - javascript
+tags:
+  - objects
+  - callbacks
+  - reject
+  - select
+resources: 1
